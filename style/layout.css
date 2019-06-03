@@ -182,3 +182,37 @@ img.main-logo {
 h6.fin-logo {
   margin-top: -7vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1440px) {
+  .connector {
+    margin-top: 51%;
+  }
+
+  h6 {
+    margin-top: 19.5vh;
+  }
+
+  h6.top {
+    margin-top: 2vh;
+  }
+
+  h6.fin-logo {
+    margin-top: -3vh;
+    margin-left: 46vw;
+  }
+
+}
