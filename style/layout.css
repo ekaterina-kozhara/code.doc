@@ -199,7 +199,7 @@ h6.fin-logo {
 
 @media all and (max-width: 1440px) {
   .connector {
-    margin-top: 51%;
+    margin-top: 36%;
   }
 
   h6 {
@@ -211,8 +211,8 @@ h6.fin-logo {
   }
 
   h6.fin-logo {
-    margin-top: -3vh;
-    margin-left: 46vw;
+    margin-top: 6vh;
+    margin-left: 48vw;
   }
 
 }
