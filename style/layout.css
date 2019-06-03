@@ -89,8 +89,8 @@ a.header-logo:hover {
 
 .logo-way {
   margin-bottom: -120px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 130px;
+  padding-right: 130px;
   margin-top: -10px;
 }
 
@@ -183,6 +183,34 @@ h6.fin-logo {
   margin-top: -7vh;
 }
 
+.footer {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  /* width: 400px; */
+  background-color: white;
+  /* border-style: solid;
+  border-color: black;
+  border-width: 1px; */
+  border-bottom: 1px solid black;
+  z-index: 20;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: black;
+  transition: width .3s ease-in-out;
+}
+
+.footer:hover:after,
+.footer:focus:after {
+    width: 100%;
+}
 
 
 
@@ -203,16 +231,18 @@ h6.fin-logo {
   }
 
   h6 {
-    margin-top: 19.5vh;
+    margin-top: 22vh;
   }
 
   h6.top {
-    margin-top: 2vh;
+    margin-top: -1vh;
   }
 
   h6.fin-logo {
-    margin-top: 6vh;
+    margin-top: -6vh;
+    /* margin-top: 6vh; */
     margin-left: 48vw;
   }
+
 
 }
