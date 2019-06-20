@@ -102,12 +102,12 @@ a.header-logo:hover {
   margin-top: -10px;
 }
 
-.poster, h2, p, h6, .logo-way {
+.poster, h2, p, h6, .logo-way, .poster2 {
   width: 64vw;
   margin: 0 auto;
 }
 
-main .poster {
+main .poster, .poster2 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -118,6 +118,12 @@ main .poster {
  height: 545px;
  margin-top: 200px;
  margin-bottom: 40px;
+}
+
+.poster2 img {
+  margin-top: 40px;
+  width: 47%;
+  height: 47%;
 }
 
 .logo-way img {
@@ -169,7 +175,9 @@ h2 {
   display: block;
   margin: 0 auto;
   width: 64vw;
-  padding-bottom: 40px;
+}
+.poster-mockup:first-of-type {
+  margin-bottom: 40px;
 }
 
 .connector {
@@ -229,7 +237,7 @@ h6.fin-logo {
 iframe.after-effect {
   margin: 0 auto;
   width: 64vw;
-  height: 70vh;
+  height: 75vh;
   margin-top: 100px;
   margin-bottom: 100px;
 }
