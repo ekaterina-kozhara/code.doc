@@ -1,5 +1,9 @@
-body {
+body, body.running-line {
   overflow-x: hidden;
+}
+
+body.running-line {
+  background-color: #662483;
 }
 
 main {
@@ -10,7 +14,7 @@ main {
   padding-bottom: 200px;
 }
 
-header {
+header, header.running-line {
   background-color: white;
   width: 100%;
   position: fixed;
@@ -24,6 +28,12 @@ header {
   border-bottom: 1px solid black;
   z-index: 20;
 }
+
+header.running-line {
+  background-color: #662483;
+}
+
+
 
 .header-menu {
   padding-top: 18px;
