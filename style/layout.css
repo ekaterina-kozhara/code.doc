@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  padding-left: 10vw;
+  padding-left: 10vw;
+}
+
 header {
   background-color: white;
   width: 100%;
@@ -89,14 +94,14 @@ a.header-logo:hover {
 
 .logo-way {
   margin-bottom: -120px;
-  padding-left: 130px;
-  padding-right: 130px;
+  /* padding-left: 130px;
+  padding-right: 130px; */
   margin-top: -10px;
 }
 
 .poster img {
-  margin-right: 20px;
-  margin-left: 20px;
+  /* margin-right: 20px;
+  margin-left: 20px; */
   width: 420px;
   height: 640px;
 }
@@ -115,7 +120,7 @@ h6 {
   text-align: right;
   /* margin: 0 auto; */
   margin-top: -20px;
-  margin-right: -70%;
+  /* margin-right: -70%; */
   transform: rotate(-90deg);
   margin-top: 23vh;
   margin-left: 51vw;
