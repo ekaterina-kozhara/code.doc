@@ -33,7 +33,44 @@ header.running-line {
   background-color: #662483;
 }
 
+.image-header {
+ position: absolute;
+ width: 100vw;
+ height: 100vh;
+ overflow: hidden;
+}
+.yo {
+  margin-top: 20vh;
+}
+img.header-running-line {
+  width: 130%;
+  margin-top: 150px;
+  position: absolute;
+  margin-left: -70%;
+  transform: rotate(45deg);
+}
+img.header-running-line2 {
+  width: 130%;
+  margin-top: 650px;
+  position: absolute;
+  margin-left: -5%;
+  transform: rotate(-37deg);
+}
+img.header-running-line3 {
+  width: 130%;
+  margin-top: -30px;
+  margin-left: 4%;
+  position: absolute;
+  transform: rotate(53deg);
+}
 
+img.header-running-line4 {
+  width: 130%;
+  margin-top: -10px;
+  position: absolute;
+  margin-left: -30%;
+  transform: rotate(-32deg);
+}
 
 .header-menu {
   padding-top: 18px;
@@ -112,7 +149,7 @@ a.header-logo:hover {
   margin-top: -10px;
 }
 
-.poster, h2, p, h6, .logo-way, .poster2 {
+.poster, h2, p, h6, .logo-way, .poster2, h3 {
   width: 64vw;
   margin: 0 auto;
 }
@@ -179,6 +216,21 @@ h2 {
   font-size: 65px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
+}
+
+h3 {
+  margin: 0 auto;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+body.running-line main h3 {
+  margin-top: 27vh;
+  margin-left: 16vw;
+  line-height: 70px;
 }
 
 .poster-mockup {
