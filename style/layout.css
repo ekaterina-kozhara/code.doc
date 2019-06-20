@@ -6,6 +6,10 @@ body.running-line {
   background-color: #662483;
 }
 
+body.scheme {
+  background-color: #473421;
+}
+
 main {
   padding-right: 10vw;
   padding-left: 10vw;
@@ -14,7 +18,7 @@ main {
   padding-bottom: 200px;
 }
 
-header, header.running-line {
+header, header.running-line, header.scheme {
   background-color: white;
   width: 100%;
   position: fixed;
@@ -31,6 +35,10 @@ header, header.running-line {
 
 header.running-line {
   background-color: #662483;
+}
+
+header.scheme {
+  background-color: #473421;
 }
 
 .image-header {
@@ -118,6 +126,24 @@ a.header-logo {
   color: white;
 }
 
+body.running-line a.header-logo {
+  color: #662483;
+}
+
+body.scheme a.header-logo {
+  color: #473421;
+}
+
+body.running-line a.header-logo:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+body.scheme a.header-logo:hover {
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
 a.header-logo:hover {
   color: black;
   transition: 0.3s ease-in-out;
@@ -147,9 +173,46 @@ a.header-logo:hover {
   margin-top: -10px;
 }
 
-.poster, h2, p, h6, .logo-way, .poster2, h3 {
+.poster,
+h2,
+p,
+h6,
+.logo-way,
+.poster2,
+h3,
+.h2-right,
+.document-running-line,
+.running-line-mockup {
   width: 64vw;
   margin: 0 auto;
+}
+
+.running-line-mockup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.running-line-mockup-img1 {
+  flex-grow: 1;
+  width: 27.3%;
+  height: 27.3%;
+  margin-right: 40px;
+}
+
+.running-line-mockup-img2 {
+  flex-grow: 2;
+  width: 30%;
+  height: 30%;
+}
+
+.document-running-line {
+  margin-top: 40px;
+}
+
+.h2-right {
+  text-align: right;
+  margin-top: 140px;
 }
 
 main .poster, .poster2 {
@@ -265,8 +328,9 @@ h6.fin-logo {
   margin-top: -7vh;
 }
 
-.footer {
+.footer, .footer-running-line {
   text-decoration: none;
+  width: 40vw;
   display: block;
   text-align: center;
   /* width: 400px; */
@@ -275,22 +339,31 @@ h6.fin-logo {
   border-color: black;
   border-width: 1px; */
   border-bottom: 1px solid black;
+  align-self: center;
   z-index: 20;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
 }
 
-.footer:after {
+.footer-running-line {
+    background-color: #662483;
+}
+
+.footer:after, .footer-running-line:after {
   display: block;
   content: "";
-  height: 2px;
+  height: 1.5px;
+  margin-top: 6px;
   width: 0%;
   background-color: black;
   transition: width .3s ease-in-out;
 }
 
 .footer:hover:after,
-.footer:focus:after {
+.footer:focus:after,
+.footer-running-line:hover:after,
+.footer-running-line:focus:after {
     width: 100%;
 }
 
