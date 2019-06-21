@@ -1,4 +1,4 @@
-body, body.running-line {
+body {
   overflow-x: hidden;
 }
 
@@ -8,6 +8,7 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 200px;
+  background-color: #bde7e5;
 }
 
 header {
@@ -19,7 +20,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  z-index: 20;
+  z-index: 500;
 }
 
 .header-menu {
@@ -84,22 +85,13 @@ a.header-logo {
   color: white;
 }
 
-body.running-line a.header-logo {
-  color: #662483;
-}
-
-body.scheme a.header-logo {
-  color: #473421;
-}
-
-body.running-line a.header-logo:hover {
-  color: black;
-  transition: 0.3s ease-in-out;
-}
-
-body.scheme a.header-logo:hover {
-  color: black;
-  transition: 0.3s ease-in-out;
+.tracker-header {
+  position: absolute;
+  z-index: 2;
+  width: 110vw;
+  margin-top: 50px;
+  margin-left: -5%;
+  height: 102vh;
 }
 
 a.header-logo:hover {
@@ -115,21 +107,14 @@ a.header-logo:hover {
   width: 115vw;
 }
 
-.logo-way {
+/* .flags {
   margin-bottom: 40px;
   margin-top: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: center;
-}
-
-.logo-way {
-  margin-bottom: -120px;
-  /* padding-left: 130px;
-  padding-right: 130px; */
-  margin-top: -10px;
-}
+} */
 
 .poster,
 h2,
@@ -141,50 +126,30 @@ h3,
 h4,
 .h2-right,
 .document-running-line,
-.running-line-mockup {
+.running-line-mockup,
+.flags {
   width: 64vw;
   margin: 0 auto;
 }
 
-.running-line-mockup {
-  display: flex;
-  flex-direction: row;
+.flags:first-of-type {
   margin-top: 40px;
 }
 
-.running-line-mockup-img1 {
-  flex-grow: 1;
-  width: 27.3%;
-  height: 27.3%;
+.flags img {
+ width: 47%;
+ margin-bottom: 40px;
+}
+
+.flags img:first-of-type {
   margin-right: 40px;
 }
 
-.running-line-mockup-img2 {
-  flex-grow: 2;
-  width: 30%;
-  height: 30%;
-}
-
-.document-running-line {
-  margin-top: 40px;
-}
-
-.h2-right {
+.inscription {
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
   text-align: right;
-  margin-top: 140px;
-}
-
-main .poster, .poster2 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.poster img {
- width: 400px;
- height: 545px;
- margin-top: 200px;
- margin-bottom: 40px;
+  margin-top: -20px;
 }
 
 .poster2 img {
@@ -193,44 +158,39 @@ main .poster, .poster2 {
   height: 47%;
 }
 
-.logo-way img {
-  width: 50%;
-  height: 50%;
-}
-
-h6 {
-  display: block;
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+.h2-right {
   text-align: right;
-  /* margin: 0 auto; */
-  margin-top: -20px;
-  /* margin-right: -70%; */
-  transform: rotate(-90deg);
-  margin-top: 23vh;
-  margin-left: 51vw;
+  margin-top: 140px;
 }
 
-h6.top {
-  margin-top: 0vh;
-  margin-left: 51vw;
+main .poster, .poster2, .flags {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+
+h7 {
+  font-size: 18px;
+  margin-top: 30px;
+  width: 48vw;
+  margin: auto;
+  text-align: center;
+  line-height: 170%;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  z-index: 200;
 }
 
 p:first-of-type {
-  margin-top: 100vh;
-}
-
-p {
   font-size: 21px;
   line-height: 170%;
   font-family: "Montserrat", sans-serif;
   text-align: left;
-  margin: 0 auto;
-}
-
-p.near-with {
-  margin-bottom: 40px;
+  margin: auto;
+  margin-top: 50vh;
+  width: 64vw;
 }
 
 h2 {
@@ -252,13 +212,14 @@ h3 {
 }
 
 h4{
-  margin-top: 21vw;
+  margin-top: 350px;
   margin-bottom: 40px;
-  margin-left: 12.5vw;
   font-size: 65px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   line-height: 70px;
+  z-index: 200;
+  text-align: center;
 }
 
 .poster-mockup {
@@ -276,7 +237,7 @@ h4{
   justify-content: space-between;
   height: 10vw;
   position: fixed;
-  margin-top: 36%;
+  padding-top: 75vh;
   margin-left: 2%;
   z-index: 10;
 }
@@ -354,9 +315,14 @@ iframe.after-effect {
 
 
 
-@media all and (max-width: 1440px) {
+@media all and (min-width: 1440px) {
   .connector {
-    margin-top: 36%;
+    padding-top: 75vh;
+  }
+
+  h4 {
+    text-align: center;
+    margin-top: 440px;
   }
 
   h6 {
