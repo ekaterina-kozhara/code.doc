@@ -195,7 +195,8 @@ h4,
 
 .poster-running-line img {
   width: 45%;
-  height: 45%
+  height: 45%;
+  margin-bottom: 40px;
 }
 
 
@@ -339,7 +340,7 @@ body.running-line main h3 {
   justify-content: space-between;
   height: 10vw;
   position: fixed;
-  margin-top: 36%;
+  top: 53%;
   margin-left: 2%;
   z-index: 10;
 }
@@ -419,7 +420,7 @@ iframe.after-effect {
 
 @media all and (max-width: 1440px) {
   .connector {
-    margin-top: 36%;
+    padding-top: 20vh;
   }
 
   h6 {
