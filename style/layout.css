@@ -188,6 +188,10 @@ h4,
   margin: 0 auto;
 }
 
+body.running-line .poster {
+  margin-top: 100vh;
+}
+
 .running-line-mockup {
   display: flex;
   flex-direction: row;
