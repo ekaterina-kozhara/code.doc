@@ -183,14 +183,21 @@ h3,
 h4,
 .h2-right,
 .document-running-line,
-.running-line-mockup {
+.running-line-mockup,
+.poster-running-line {
   width: 64vw;
   margin: 0 auto;
 }
 
-body.running-line .poster {
-  margin-top: 100vh;
+.poster-running-line {
+  margin-top: 60vh;
 }
+
+.poster-running-line img {
+  width: 45%;
+  height: 45%
+}
+
 
 .running-line-mockup {
   display: flex;
@@ -220,7 +227,9 @@ body.running-line .poster {
   margin-top: 140px;
 }
 
-main .poster, .poster2 {
+main .poster,
+.poster2,
+.poster-running-line {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -230,6 +239,12 @@ main .poster, .poster2 {
  width: 400px;
  height: 545px;
  margin-top: 200px;
+ margin-bottom: 40px;
+}
+
+body.running-line .poster img {
+ width: 400px;
+ height: 545px;
  margin-bottom: 40px;
 }
 
