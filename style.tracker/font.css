@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "AnonymousPro-Bold";
+
+  src: url("../fonts/AnonymousPro-Bold.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,900&display=swap&subset=cyrillic,cyrillic-ext');
+
+@font-face {
+  font-family: "Sansation_Light";
+
+  src: url("../fonts/Sansation_Light.woff") format("woff");
+}
