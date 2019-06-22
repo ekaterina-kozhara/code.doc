@@ -152,11 +152,52 @@ h4,
   margin-top: -20px;
 }
 
-.poster2 img {
+.graphic-image {
+  width: 64vw;
+  align-self: center;
   margin-top: 40px;
-  width: 47%;
-  height: 47%;
+  margin-bottom: 40px;
 }
+
+.composition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 64vw;
+  align-self: center;
+}
+
+.composition .column1 {
+  flex-grow: 1;
+}
+
+.column1 img {
+  width: 100%;
+}
+
+.composition .column2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.column2 img {
+  width: 100%;
+}
+
+.composition .column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+
+.column3 img {
+  width: 100%;
+}
+
 
 .h2-right {
   text-align: right;
@@ -196,7 +237,6 @@ p:first-of-type {
 h2 {
   margin: 0 auto;
   margin-top: 140px;
-  margin-bottom: 40px;
   font-size: 65px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
