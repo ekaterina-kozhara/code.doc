@@ -15,7 +15,7 @@ main {
   padding-left: 10vw;
   display: flex;
   flex-direction: column;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 header, header.running-line, header.scheme {
@@ -184,11 +184,21 @@ h4,
 .h2-right,
 .document-running-line,
 .running-line-mockup,
-.poster-running-line {
+.poster-running-line,
+.poster-running-line2 {
   width: 64vw;
   margin: 0 auto;
 }
 
+p {
+  font-size: 21px;
+  line-height: 170%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin: auto;
+  /* margin-top: 50vh; */
+  width: 64vw;
+}
 .poster-running-line {
   margin-top: 60vh;
 }
@@ -199,6 +209,16 @@ h4,
   margin-bottom: 40px;
 }
 
+.poster-running-line2 img {
+  width: 47.5%;
+  height: 47.5%;
+  margin-bottom: 40px;
+}
+
+.this-is-me {
+  width: 64vw;
+  align-self: center;
+}
 
 .running-line-mockup {
   display: flex;
@@ -230,7 +250,8 @@ h4,
 
 main .poster,
 .poster2,
-.poster-running-line {
+.poster-running-line,
+.poster-running-line2 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -260,7 +281,7 @@ body.running-line .poster img {
   height: 50%;
 }
 
-h6 {
+/* h6 {
   display: block;
   position: absolute;
   font-family: "Montserrat", sans-serif;
@@ -272,12 +293,12 @@ h6 {
   transform: rotate(-90deg);
   margin-top: 23vh;
   margin-left: 51vw;
-}
+} */
 
-h6.top {
+/* h6.top {
   margin-top: 0vh;
   margin-left: 51vw;
-}
+} */
 
 p {
   font-size: 21px;
@@ -355,9 +376,9 @@ img.main-logo {
   margin-top: -65px;
 }
 
-h6.fin-logo {
+/* h6.fin-logo {
   margin-top: -7vh;
-}
+} */
 
 .footer, .footer-running-line {
   text-decoration: none;
@@ -406,6 +427,29 @@ iframe.after-effect {
   margin-bottom: 100px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer h5, footer h6 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer h5 {
+  margin-top: 100px;
+  font-size: 11px;
+}
+
+footer h6 {
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+  line-height: 200%;
+}
+
 
 
 
@@ -423,7 +467,7 @@ iframe.after-effect {
     padding-top: 20vh;
   }
 
-  h6 {
+  /* h6 {
     margin-top: 22vh;
   }
 
@@ -435,7 +479,7 @@ iframe.after-effect {
     margin-top: -6vh;
     /* margin-top: 6vh; */
     margin-left: 48vw;
-  }
+  } */
 
 
 }
