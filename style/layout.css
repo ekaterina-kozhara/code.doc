@@ -10,6 +10,14 @@ body.scheme {
   background-color: #473421;
 }
 
+.white {
+  color: white;
+}
+
+header.running-line a {
+  color: white;
+}
+
 main {
   padding-right: 10vw;
   padding-left: 10vw;
@@ -112,6 +120,8 @@ a.header:after {
   transition: width .3s ease-in-out;
 }
 
+
+
 a.header:hover:after,
 a.header:focus:after {
     width: 100%;
@@ -128,6 +138,7 @@ a.header-logo {
 
 body.running-line a.header-logo {
   color: #662483;
+  -webkit-text-stroke: 0.7px white;
 }
 
 body.scheme a.header-logo {
