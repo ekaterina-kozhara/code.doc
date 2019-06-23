@@ -3,6 +3,11 @@ body, body.running-line {
   font-size: 1vw;
 }
 
+.menu {
+  position: fixed;
+  width: 100%;
+}
+
 body.running-line {
   background-color: #662483;
 }
@@ -21,11 +26,12 @@ body.scheme {
   font-size: 13px;
 }
 .collapsible-menu {
-  position: fixed;
+  width: 100%;
+  /* position: fixed; */
   z-index: 1000;
   align-self: flex-end;
-  top: 12%;
-  right: 7.5vw;
+  background-size: 1%;
+  background-position: 94%;
   background-color: transparent;
 }
 
@@ -50,15 +56,17 @@ li {
 }
 
 .collapsible-menu label {
+  right: 4%;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: bold;
   text-align: right;
+  margin-right: 4.5%;
   display: block;
   cursor: pointer;
   background: url('../images/burger-black.png') no-repeat left center;
-  background-size: 7%;
-  background-position: 65%;
+  background-size: 1%;
+  background-position: 94%;
   padding: 10px 0 10px 50px;
 }
 input#menu {
@@ -73,13 +81,13 @@ input#menu {
     font-family: 'Montserrat', sans-serif;
     /* padding: 0 0 0 50px; */
     /* position: absolute; */
-    margin-right: -10px;
+    margin-right: 3%;
 }
 /* Эффект переключения*/
 input:checked ~ label {
     background-image: url("../images/cross.png");
-    background-position: 65%;
-    background-size: 3%;
+    background-position: 94%;
+    background-size: 0.8%;
 }
 input:checked ~ .menu-content {
     max-height: 100%;
@@ -104,8 +112,8 @@ main {
 
 header, header.running-line, header.scheme {
   background-color: white;
-  width: 100%;
-  position: fixed;
+  /* width: 100%; */
+  /* position: fixed; */
   padding: 10px 53px 15px 53px;
   display: flex;
   flex-direction: row;
@@ -162,13 +170,19 @@ img.header-running-line4 {
   transform: rotate(-32deg);
 }
 
+.header-menu a:first-of-type {
+  margin-right: 40px;
+}
+
 .header-menu {
   padding-top: 1rem;
-  padding-right: 11vw;
-  width: 23vw;
+  /* right: 5.5%; */
+  /* width: 23vw; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: white;
+  z-index: 1000;
 }
 
 a.checkbox-a:hover {
@@ -182,6 +196,7 @@ a {
 }
 
 a.header {
+  /* margin-right: 2%; */
   line-height: 1;
   display: inline-block;
   color: black;
@@ -213,6 +228,7 @@ a.header-logo {
   font-weight: bold;
   font-size: 3rem;
   color: white;
+  /* margin-left: 2%; */
 }
 
 body.running-line a.header-logo {
@@ -240,12 +256,12 @@ a.header-logo:hover {
 }
 
 .header-img {
-  position: absolute;
+  /* position: absolute; */
   /* margin: -10%; */
   /* right: -4%; */
   /* margin:auto; */
   /* margin-top:-10px; */
-  width: 96vw;
+  width: 100vw;
   /* margin-bottom: 20vw; */
 }
 
@@ -350,9 +366,8 @@ main .poster,
 }
 
 .poster img {
- width: 400px;
- height: 545px;
- margin-top: 67vw;
+ width: 50%;
+ margin-top: 120px;
  margin-bottom: 40px;
 }
 
