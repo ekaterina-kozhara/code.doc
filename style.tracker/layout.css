@@ -37,6 +37,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 a.header {
@@ -54,10 +55,10 @@ a.header-mini {
   display: inline-block;
   color: black;
   text-decoration:none;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 a.header:after,
@@ -218,12 +219,15 @@ h4,
   width: 64vw;
   align-self: center;
   margin-top: 40px;
+  /* overflow: hidden; */
 }
 
-/*
-.slide1 {
-  background-image: url("images/poster-tracker.png");
+
+.slide4  {
+  overflow: hidden;
 }
+
+
 
 .slide2 {
   background-image: url("images/poster-tracker2.png");
@@ -231,7 +235,7 @@ h4,
 
 .slide3 {
   background-image: url("images/poster-tracker3.png");
-} */
+}
 
 .flags2 {
   margin-top: 40px;

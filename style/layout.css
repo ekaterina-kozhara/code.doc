@@ -14,6 +14,81 @@ body.scheme {
   color: white;
 }
 
+.menu-content {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 0 0 50px;
+  font-size: 13px;
+}
+.collapsible-menu {
+  position: fixed;
+  z-index: 1000;
+  align-self: flex-end;
+  top: 12%;
+  right: 10vw;
+  background-color: transparent;
+}
+
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display:block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  cursor: pointer;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.collapsible-menu label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+  cursor: pointer;
+  background: url('../images/burger-black.png') no-repeat left center;
+  background-size: 7%;
+  background-position: 65%;
+  padding: 10px 0 10px 50px;
+}
+input#menu {
+    display: none;
+}
+
+/* --------------------------- */
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 0 0 0 50px; */
+    /* position: absolute; */
+    margin-right: -10px;
+}
+/* Эффект переключения*/
+input:checked ~ label {
+    background-image: url("../images/cross.png");
+    background-position: 65%;
+    background-size: 3%;
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+    /* transition: all 0.7s ease; */
+}
+
+/* ----------------------------------- */
+
+
+
 header.running-line a {
   color: white;
 }
@@ -88,12 +163,15 @@ img.header-running-line4 {
 
 .header-menu {
   padding-top: 18px;
-  padding-right: 110px;
+  padding-right: 13vw;
   width: 23vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
 
+a.checkbox-a:hover {
+  text-decoration: underline;
 }
 
 a {
@@ -372,7 +450,7 @@ body.running-line main h3 {
   justify-content: space-between;
   height: 10vw;
   position: fixed;
-  top: 53%;
+  top: 75%;
   margin-left: 2%;
   z-index: 10;
 }
