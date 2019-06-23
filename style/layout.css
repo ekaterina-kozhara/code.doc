@@ -6,6 +6,7 @@ body, body.running-line {
 .menu {
   position: fixed;
   width: 100%;
+  z-index: 3000;
 }
 
 body.running-line {
