@@ -24,7 +24,7 @@ body.scheme {
   z-index: 1000;
   align-self: flex-end;
   top: 12%;
-  right: 10vw;
+  right: 7.5vw;
   background-color: transparent;
 }
 
@@ -163,7 +163,7 @@ img.header-running-line4 {
 
 .header-menu {
   padding-top: 18px;
-  padding-right: 13vw;
+  padding-right: 11vw;
   width: 23vw;
   display: flex;
   flex-direction: row;
