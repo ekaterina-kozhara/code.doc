@@ -16,8 +16,8 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
-.slick-prev,
-.slick-next
+.slick-prev img,
+.slick-next img
 {
     font-size: 0;
     line-height: 0;
@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -36,10 +36,10 @@
 
     cursor: pointer;
 
-    color: transparent;
+    /* color: transparent; */
     border: none;
     outline: none;
-    background: transparent;
+    /* background: transparent; */
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -79,16 +79,20 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -75px;
+    position: absolute;
+    top: 50%;
 }
-[dir='rtl'] .slick-prev
+[
+dir='rtl'] .slick-prev
 {
     right: -25px;
     left: auto;
 }
 .slick-prev:before
 {
-    content: '←';
+    content: url('./l.png');
+
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -97,16 +101,19 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -72px;
+    position: absolute;
+    top: 50%;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
     left: -25px;
 }
+/* lhljh;h;h;h;h;hggggggggggg */
 .slick-next:before
 {
-    content: '→';
+    content: url('./r.png');
 }
 [dir='rtl'] .slick-next:before
 {
@@ -116,7 +123,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .slick-dots
