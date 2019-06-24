@@ -572,6 +572,11 @@ img.sheme  {
   width: 100vw;
 }
 
+body.scheme main {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
