@@ -21,6 +21,15 @@ body.scheme {
   color: white;
 }
 
+
+.inscription {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: right;
+  margin-top: 20px;
+  color: white;
+}
+
 .menu-content {
   font-family: 'Montserrat', sans-serif;
   padding: 0 0 0 50px;
@@ -304,7 +313,8 @@ h4,
 .document-running-line,
 .running-line-mockup,
 .poster-running-line,
-.poster-running-line2 {
+.poster-running-line2,
+.poster-sheme {
   width: 64vw;
   margin: 0 auto;
 }
@@ -322,7 +332,12 @@ p {
   margin-top: 60vh;
 }
 
-.poster-running-line img {
+.poster-sheme {
+  margin-top: 40px;
+}
+
+.poster-running-line img,
+.poster-sheme img {
   width: 45%;
   height: 45%;
   margin-bottom: 40px;
@@ -370,7 +385,9 @@ p {
 main .poster,
 .poster2,
 .poster-running-line,
-.poster-running-line2 {
+.poster-running-line2,
+.poster-sheme
+ {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -464,13 +481,18 @@ body.running-line main h3 {
   line-height: 70px;
 }
 
-.poster-mockup {
+.poster-mockup,
+.poster-mockup2 {
   display: block;
   margin: 0 auto;
   width: 64vw;
 }
 .poster-mockup:first-of-type {
   margin-bottom: 40px;
+}
+
+.poster-mockup2 {
+  margin-top: 40px;
 }
 
 .connector {
@@ -498,7 +520,8 @@ img.main-logo {
   margin-top: -7vh;
 } */
 
-.footer, .footer-running-line {
+.footer, .footer-running-line,
+.footer-sheme {
   text-decoration: none;
   width: 40vw;
   display: block;
@@ -517,10 +540,16 @@ img.main-logo {
 }
 
 .footer-running-line {
-    background-color: #662483;
+  background-color: #662483;
 }
 
-.footer:after, .footer-running-line:after {
+.footer-sheme {
+  background-color: #473521;
+}
+
+
+.footer:after, .footer-running-line:after,
+.footer-sheme:after {
   display: block;
   content: "";
   height: 1.5px;
@@ -533,8 +562,10 @@ img.main-logo {
 .footer:hover:after,
 .footer:focus:after,
 .footer-running-line:hover:after,
-.footer-running-line:focus:after {
-    width: 100%;
+.footer-running-line:focus:after
+.footer-sheme:hover:after,
+.footer-sheme:focus:after {
+  width: 100%;
 }
 
 iframe.after-effect {
@@ -583,34 +614,8 @@ body.scheme main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 1440px) {
-  /* .connector {
-    padding-top: 20vh;
-  } */
-
-  /* h6 {
-    margin-top: 22vh;
+@media (min-width: 1020px) and (min-height: 1366px) {
+  .connector {
+    top: 57%;
   }
-
-  h6.top {
-    margin-top: -1vh;
-  }
-
-  h6.fin-logo {
-    margin-top: -6vh;
-    /* margin-top: 6vh; */
-    margin-left: 48vw;
-  } */
-
-
 }
