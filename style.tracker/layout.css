@@ -12,10 +12,6 @@ main.all-about {
   background-color: white;
 }
 
-/* main.all-about h2 {
-  text-align: center;
-} */
-
 body {
   overflow-x: hidden;
   font-size: 1vw;
@@ -373,7 +369,7 @@ h7 {
   width: 64vw;
 }
 
-.all h2 {
+.all h2, .all2 h2 {
   margin: 0 auto;
   margin-top: 140px;
   font-size: 4rem;
