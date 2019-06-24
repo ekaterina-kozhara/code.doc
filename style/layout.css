@@ -14,7 +14,7 @@ body.running-line {
 }
 
 body.scheme {
-  background-color: #473421;
+  background-color: #473521;
 }
 
 .white {
@@ -579,7 +579,7 @@ body.scheme main {
   justify-content: center;
   align-items: center;
   z-index: 10;
-
+  flex-direction: column;
 }
 
 
