@@ -139,6 +139,8 @@ header.scheme {
  width: 100vw;
  height: 100vh;
  overflow: hidden;
+ z-index: -100;
+ margin-top: -98px;
 }
 
 img.header-running-line {
@@ -182,7 +184,7 @@ img.header-running-line4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: white;
+  /* background-color: white; */
   z-index: 1000;
 }
 
