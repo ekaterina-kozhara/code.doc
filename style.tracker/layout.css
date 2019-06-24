@@ -564,7 +564,9 @@ main.all-about .h2-left-interview {
 }
 
 .quot {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quotes .quot img {
@@ -580,6 +582,7 @@ main.all-about .h2-left-interview {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  margin-top: 80px;
 }
 
 p.p-quot {
@@ -589,7 +592,7 @@ p.p-quot {
   font-family: "Montserrat", sans-serif;
   text-align: left;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 

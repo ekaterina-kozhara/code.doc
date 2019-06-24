@@ -570,11 +570,16 @@ footer h6 {
 
 img.sheme  {
   width: 100vw;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 body.scheme main {
   display: flex;
   justify-content: center;
+  align-items: center;
+  z-index: 10;
+
 }
 
 
