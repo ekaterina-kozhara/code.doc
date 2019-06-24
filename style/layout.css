@@ -50,6 +50,14 @@ body.scheme {
   font-weight: bold;
 }
 
+#white {
+  color: white;
+}
+
+a.white:hover {
+  text-decoration: underline;
+}
+
 li {
   cursor: pointer;
   text-align: right;
@@ -100,7 +108,7 @@ input:checked ~ .menu-content {
 
 
 header.running-line a {
-  color: white;
+  color: black;
 }
 
 main {
@@ -140,7 +148,7 @@ header.scheme {
  height: 100vh;
  overflow: hidden;
  z-index: -100;
- margin-top: -98px;
+ /* margin-top: -98px; */
 }
 
 img.header-running-line {
@@ -236,7 +244,7 @@ a.header-logo {
 
 body.running-line a.header-logo {
   color: #662483;
-  -webkit-text-stroke: 0.7px white;
+  -webkit-text-stroke: 0.7px black;
 }
 
 body.scheme a.header-logo {
@@ -452,7 +460,7 @@ h4{
 
 body.running-line main h3 {
   margin-top: 27vh;
-  margin-left: 16vw;
+  margin-left: 15vw;
   line-height: 70px;
 }
 
