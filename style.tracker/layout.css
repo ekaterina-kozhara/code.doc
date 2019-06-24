@@ -561,19 +561,25 @@ main.all-about .h2-left-interview {
   width: 64vw;
   display: flex;
   flex-direction: row;
+}
+
+.quot {
+  justify-content: center;
+}
+
+.quotes .quot img {
   margin-top: 120px;
+  width: 250px;
+  height: 250px;
 }
 
-.quot1, .quot2, .quot3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 34%;
-}
-
-.quot1 img, .quot2 img, .quot3 img {
-  width: 77%;
-  align-self: center;
+.quotes .quot-title {
+  width: auto;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 p.p-quot {
@@ -594,7 +600,6 @@ p.p-quot {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 
 
 
