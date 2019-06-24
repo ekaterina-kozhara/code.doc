@@ -561,6 +561,7 @@ main.all-about .h2-left-interview {
   width: 64vw;
   display: flex;
   flex-direction: row;
+  margin-top: 120px;
 }
 
 .quot1, .quot2, .quot3 {
