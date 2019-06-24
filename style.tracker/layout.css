@@ -3,13 +3,18 @@
   position: relative;
 }
 
+.all2 {
+  width: 100%;
+  position: relative;
+}
+
 main.all-about {
   background-color: white;
 }
 
-main.all-about h2 {
+/* main.all-about h2 {
   text-align: center;
-}
+} */
 
 body {
   overflow-x: hidden;
@@ -68,6 +73,10 @@ a.header {
   font-weight: bold;
 }
 
+.all2 a.header {
+  font-size: 1rem;
+}
+
 a.header-mini {
   line-height: 1;
   display: inline-block;
@@ -78,6 +87,11 @@ a.header-mini {
   font-weight: lighter;
   margin-top: 2px;
   margin-right: 1vw;
+}
+
+.all2 a.header-mini {
+  font-size: 0.8rem;
+  margin-right: 2.5vw;
 }
 
 .split {
@@ -243,6 +257,15 @@ h4,
   margin-top: 140px;
 }
 
+main.all-about .h2-right-interview {
+  text-align: right;
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
 .slider1 {
   /* z-index: 700; */
   width: 64vw;
@@ -273,7 +296,7 @@ h4,
 .flags2 p.character {
   text-align: left;
   font-size: 1.4rem;
-  line-height: 180%;
+  line-height: 150%;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   margin-right: 40px;
@@ -285,10 +308,46 @@ img.character {
   align-self: flex-end;
 }
 
-main .poster, .poster2, .flags, .flags2  {
+main .poster, .poster2, .flags, .flags2, .interview, .interview2  {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+}
+
+.interview {
+  width: 64vw;
+  height: 75vh;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.interview2 {
+  flex-direction: row-reverse;
+  width: 64vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 75vh;
+}
+
+
+
+.interview p,
+.interview2 p {
+  font-size: 0.95rem;
+  line-height: 155%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin: auto;
+  margin-top: 0px;
+  width: 32%;
+}
+
+.interview p {
+  margin-right: 40px;
+}
+
+.interview2 p {
+  margin-left: 40px;
 }
 
 h7 {
@@ -304,7 +363,7 @@ h7 {
   margin-bottom: 24vw;
 }
 
-p:first-of-type {
+.first-tracker {
   font-size: 1.3rem;
   line-height: 170%;
   font-family: "Montserrat", sans-serif;
@@ -314,7 +373,7 @@ p:first-of-type {
   width: 64vw;
 }
 
-h2 {
+.all h2 {
   margin: 0 auto;
   margin-top: 140px;
   font-size: 4rem;
@@ -425,6 +484,15 @@ iframe.after-effect {
   /* align-self: center; */
 }
 
+iframe.all-about-interview,
+iframe.all-about-interview2 {
+  margin: 0 auto;
+  /* margin-left: 40px; */
+  margin-bottom: 100px;
+  flex-grow: 1;
+  width: 68vh;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -460,13 +528,75 @@ footer h6 {
   font-size: 1.2rem;
 }
 
+.all2 .about-design {
+  font-size: 1rem;
+    margin-top: 17.2px;
+}
 
-/* .about-design:hover {
-  text-decoration: underline;
-} */
+main.all-about .h2-left-interview {
+  text-align: left;
+  margin-top: 100px;
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
 
+#what-is-design {
+  margin: 0 auto;
+  /* margin-top: 140px; */
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
 
+.what {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.quotes {
+  margin: 0 auto;
+  width: 64vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.quot1, .quot2, .quot3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 34%;
+}
+
+.quot1 img, .quot2 img, .quot3 img {
+  width: 77%;
+  align-self: center;
+}
+
+p.p-quot {
+  width: 20vw;
+  font-size: 0.95rem;
+  line-height: 155%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.all2 h6.quot {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 
 
