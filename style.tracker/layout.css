@@ -519,7 +519,7 @@ footer h6 {
 }
 
 .about-design {
-  margin-top: 17px;
+  margin-top: 18px;
   margin-right: 6vw;
   font-weight: bold;
   font-size: 1.2rem;
@@ -607,9 +607,82 @@ p.p-quot {
 
 
 
+@media all and (max-width: 823px) {
+  a.header-mini {
+    display: none;
+  }
+
+  .flags2 p.character {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 143%;
+  }
+
+  img.character {
+    width: 43%;
+    height: 43%;
+  }
+
+  iframe.after-effect {
+    height: 36vw;
+  }
+
+  .all h2, .all2 h2 {
+    font-size: 3rem;
+  }
+
+  .connector {
+    height: 14vw;
+  }
+
+  .all h2, .all2 h2 {
+    margin-top: 70px;
+  }
+
+}
 
 
 
+@media all and (max-width: 1084px) {
+  .about-design {
+    font-size: 1.0rem;
+  }
+  a.header {
+    font-size: 1.0rem;
+  }
+
+  a.header-mini {
+    font-size: 0.8rem;
+    margin-top: 3px;
+  }
+
+  a.header-logo {
+    font-size: 3rem;
+  }
+}
+
+@media all and (min-width: 1228px) {
+
+  header {
+    padding: 10px 28px 15px 36px;
+  }
+
+  .split {
+    margin-top: 3px;
+  }
+
+  .all h2, .all2 h2 {
+    font-size: 3.5rem;
+  }
+
+ .flags2 p.character {
+    font-size: 1.2rem;
+  }
+
+  .first-tracker {
+    font-size: 1.2rem;
+  }
+}
 
 @media all and (min-width: 1440px) {
   .connector {
@@ -634,6 +707,4 @@ p.p-quot {
     /* margin-top: 6vh; */
     margin-left: 48vw;
   }
-
-
 }
