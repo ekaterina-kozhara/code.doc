@@ -87,11 +87,6 @@ li {
   background-position: 94%;
   padding: 10px 0 10px 50px;
 }
-
-#white {
-  background: url('../images/burger-white.png') no-repeat left center;
-}
-
 input#menu {
     display: none;
 }
@@ -111,10 +106,6 @@ input:checked ~ label {
     background-image: url("../images/cross.png");
     background-position: 94%;
     background-size: 0.8%;
-}
-
-input:checked.white ~ label {
-    background-image: url("../images/cross-white.png");
 }
 
 input:checked ~ .menu-content {
