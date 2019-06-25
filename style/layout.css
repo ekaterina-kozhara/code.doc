@@ -196,7 +196,7 @@ img.header-running-line4 {
 }
 
 .header-menu {
-  padding-top: 1rem;
+  padding-top: 1.2rem;
   /* right: 5.5%; */
   /* width: 23vw; */
   display: flex;
@@ -396,7 +396,7 @@ main .poster,
 
 .poster img {
  width: 50%;
- margin-top: 120px;
+ margin-top: 30px;
  margin-bottom: 40px;
 }
 
@@ -618,5 +618,140 @@ body.scheme main {
 @media (min-width: 1020px) and (min-height: 1366px) {
   .connector {
     top: 57%;
+  }
+}
+
+
+@media (max-width: 1165px) {
+  .collapsible-menu label {
+    background-position: 92%;
+  }
+
+  iframe.after-effect {
+    height: 54vh;
+  }
+}
+
+@media (max-width: 895px) {
+  .header-img {
+    margin-top: 2%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  iframe.after-effect {
+    height: 40vh;
+  }
+
+  .collapsible-menu label {
+    font-size: 0.9rem;
+    margin-right: 8.5%;
+  }
+
+  .menu-content {
+    margin-right: 7%;
+  }
+
+  input:checked ~ label {
+    background-position: 88%;
+    background-size: 2%;
+  }
+
+  .collapsible-menu label {
+    background-size: 3%;
+    background-position: 88%;
+  }
+}
+
+@media (max-width: 752px) {
+  .header-img {
+    margin-top: 3%;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .footer, .footer-running-line, .footer-sheme {
+    width: 50vw;
+    font-size: 0.8rem;
+  }
+
+  .connector img {
+    width: 18px;
+    height: 13vw;
+  }
+
+  .header-menu a:first-of-type {
+    margin-right: 20px;
+  }
+
+  .header-menu {
+    font-size: 2rem;
+    padding-top: 0.9rem;
+  }
+
+  a.header {
+    font-size: 0.8rem;
+  }
+
+  a.header-logo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .connector {
+    top: 91%;
+  }
+
+  a.header {
+    font-size: 0.7rem;
+  }
+
+  .header-menu {
+    width: 67vw;
+    padding-top: 0.4rem;
+  }
+
+  iframe.after-effect {
+    height: 30vh;
+  }
+
+  .connector a.header {
+    margin-top: -83px;
+  }
+
+  .connector {
+    margin-left: 3%;
+  }
+
+  header, header.running-line, header.scheme {
+    padding: 10px 21px 7px 10px;
+  }
+
+  a.header-logo {
+    font-size: 1.3rem;
+  }
+
+  .header-menu {
+    width: 61vw;
+  }
+
+  .header-menu a:first-of-type {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 367px) {
+  .header-menu {
+    width: 66vw;
   }
 }
