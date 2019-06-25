@@ -21,7 +21,6 @@ body.scheme {
   color: white;
 }
 
-
 .inscription {
   font-size: 0.9rem;
   font-family: "Montserrat", sans-serif;
@@ -35,6 +34,7 @@ body.scheme {
   padding: 0 0 0 50px;
   font-size: 13px;
 }
+
 .collapsible-menu {
   width: 100%;
   /* position: fixed; */
@@ -49,6 +49,7 @@ body.scheme {
   list-style-type: none;
   padding: 0;
 }
+
 .collapsible-menu a {
   display:block;
   padding: 10px;
@@ -87,6 +88,7 @@ li {
   background-position: 94%;
   padding: 10px 0 10px 50px;
 }
+
 input#menu {
     display: none;
 }
@@ -114,8 +116,6 @@ input:checked ~ .menu-content {
 }
 
 /* ----------------------------------- */
-
-
 
 header.running-line a {
   color: black;
@@ -236,8 +236,6 @@ a.header:after {
   background-color: black;
   transition: width .3s ease-in-out;
 }
-
-
 
 a.header:hover:after,
 a.header:focus:after {
@@ -420,25 +418,6 @@ body.running-line .poster img {
   height: 50%;
 }
 
-/* h6 {
-  display: block;
-  position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  text-align: right;
-  /* margin: 0 auto; */
-  margin-top: -20px;
-  /* margin-right: -70%; */
-  transform: rotate(-90deg);
-  margin-top: 23vh;
-  margin-left: 51vw;
-} */
-
-/* h6.top {
-  margin-top: 0vh;
-  margin-left: 51vw;
-} */
-
 p {
   font-size: 2rem;
   line-height: 170%;
@@ -491,6 +470,7 @@ body.running-line main h3 {
   margin: 0 auto;
   width: 64vw;
 }
+
 .poster-mockup:first-of-type {
   margin-bottom: 40px;
 }
@@ -520,10 +500,6 @@ img.main-logo {
   margin-top: -65px;
 }
 
-/* h6.fin-logo {
-  margin-top: -7vh;
-} */
-
 .footer, .footer-running-line,
 .footer-sheme {
   text-decoration: none;
@@ -550,7 +526,6 @@ img.main-logo {
 .footer-sheme {
   background-color: #473521;
 }
-
 
 .footer:after, .footer-running-line:after,
 .footer-sheme:after {
@@ -617,6 +592,24 @@ body.scheme main {
   flex-direction: column;
 }
 
+.watch-next {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #662483;
+  margin: 0 auto;
+}
+
+.next-raw {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-raw img {
+  width: 100%;
+}
+
+/* -------------------------------------------- */
 
 @media (min-width: 1020px) and (min-height: 1366px) {
   .connector {
@@ -833,8 +826,6 @@ body.scheme main {
     margin-left: 14vw;
     font-size: 1.3rem;
   }
-
-
 }
 
 @media (max-width: 450px) {
@@ -1066,5 +1057,4 @@ body.scheme main {
   .inscription {
       font-size: 0.5rem;
    }
-
 }
