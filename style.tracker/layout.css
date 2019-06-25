@@ -312,7 +312,7 @@ main .poster, .poster2, .flags, .flags2, .interview, .interview2  {
 
 .interview {
   width: 64vw;
-  height: 75vh;
+  height: 44vh;
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -322,7 +322,7 @@ main .poster, .poster2, .flags, .flags2, .interview, .interview2  {
   width: 64vw;
   margin: 0 auto;
   margin-top: 40px;
-  height: 75vh;
+  height: 44vh;
 }
 
 
@@ -487,6 +487,7 @@ iframe.all-about-interview2 {
   margin-bottom: 100px;
   flex-grow: 1;
   width: 68vh;
+  height: 86%;
 }
 
 footer {
