@@ -803,13 +803,38 @@ body.scheme main {
     line-height: 42px;
     font-size: 2.1rem;
   }
+
+  .connector img {
+    height: 18px;
+    width: 18px;
+  }
+
+  .running-line a.header img {
+    width: 18px;
+    height: 18px;
+    margin-left: 9px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 590px) {
+  body.running-line main h3 {
+    margin-top: 26%;
+    margin-left: 13vw;
+    line-height: 35px;
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 450px) {
   body.running-line main h3 {
-    line-height: 52px;
-    margin-top: 21vh;
+    line-height: 29px;
+    margin-top: 23vh;
+    margin-left: 14vw;
+    font-size: 1.3rem;
   }
+
+
 }
 
 @media (max-width: 450px) {
@@ -930,8 +955,8 @@ body.scheme main {
   }
 
   .connector img {
-    width: 12px;
-    height: 18vw;
+    width: 18px;
+    height: 18px;
   }
 
   .header-img-1 {
@@ -955,8 +980,91 @@ body.scheme main {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 436px) {
+    body.running-line main h3 {
+    line-height: 31px;
+    margin-top: 21vh;
+    margin-left: 11vw;
+  }
+
+  .poster-running-line img, .poster-sheme img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 446px) {
   .header-menu {
     width: 66vw;
   }
+
+  label.white {
+    color: black;
+  }
+
+  p#white {
+    color: white;
+  }
+
+  li a.white {
+    color: black;
+  }
+
+  #white {
+    color: black;
+  }
+
+  .poster-running-line2 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .poster-running-line img, .poster-sheme img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  body.running-line main h3 {
+    line-height: 22px;
+    margin-top: 11vh;
+    margin-left: 11vw;
+  }
+
+  .image-header {
+    position: absolute;
+    width: 100vw;
+    height: 35vh;
+  }
+
+  .poster-running-line {
+    margin-top: 9vh;
+  }
+
+  .connector {
+    top: 64%;
+  }
+
+  .running-line-mockup {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .document-running-line {
+    margin-top: 0px;
+  }
+
+  img.sheme {
+    width: 100vw;
+    margin-top: 60px;
+  }
+
+  .inscription {
+      font-size: 0.5rem;
+   }
+
 }
